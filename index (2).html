@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://www.sesirs.org.br/sites/default/files/styles/scale_sm/public/logos/logos_sesi_branco_0.png?itok=_UhhUr2O" alt="Logo SESI" style="height: 50px;">
+            <h1>Cantina do SESI</h1>
+        </div>
+    </header>
+
+    <section id="payment">
+        <h2>Pagamento</h2>
+        <form id="paymentForm">
+            <label for="name">Nome Completo:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="amount">Valor:</label>
+            <input type="number" id="amount" name="amount" required>
+    
+            <button type="submit">Pagar com PIX</button>
+        </form>
+    
+        <h2>QR Code para Pagamento:</h2>
+        <img id="qrCode" src="" alt="QR Code do PIX">
+    </section>
+    
+    
+    
+    
+    <section id="payment">
+        <h2>Pagamento</h2>
+        <form action="#" method="POST">
+            <label for="name">Nome Completo:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="card-number">Número do Cartão:</label>
+            <input type="text" id="card-number" name="card-number" required>
+
+            <label for="expiry-date">Data de Validade:</label>
+            <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/AA" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+
+            <button type="submit">Confirmar Pagamento</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cantina Escolar. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

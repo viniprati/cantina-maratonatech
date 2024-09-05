@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://www.google.com/imgres?q=sesi%20referencia&imgurl=https%3A%2F%2Fimages.sympla.com.br%2F64359beac6eeb.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+header {
+    background-color: rgba(0, 59, 122, 0.8);
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    margin-right: 15px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.btn-pagar {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-pagar:hover {
+    background-color: #0056b3;
+}
+
+#payment form {
+    display: flex;
+    flex-direction: column;
+}
+
+#payment form label {
+    margin-top: 10px;
+}
+
+#payment form input {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#payment form button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#payment form button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: rgba(26, 59, 205, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#payment img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

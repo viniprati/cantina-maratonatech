@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cantina Escolar</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://www.sesirs.org.br/sites/default/files/styles/scale_sm/public/logos/logos_sesi_branco_0.png?itok=_UhhUr2O" alt="Logo SESI" style="height: 50px; margin-right: 3px;">
+            <h1>Cantina do SESI</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#combos">Combos</a></li>
+                <li><a href="#menu">Cardápio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="welcome">
+            <h2>Bem-vindo à Cantina Escolar</h2>
+            <p>Alimentação saudável e gostosa para nossos estudantes.</p>
+        </div>
+    </section>
+
+    <section id="combos">
+        <h2>Combos principais</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="Clássico.jpg" alt="Combo 1">
+                <h3>O clássico</h3>
+                <ul>
+                    <li>Hambúrguer</li>
+                    <li>Suco de manga</li>
+                    <li>Cookie</li>
+                    <li>R$12,00</li>
+                </ul>
+                <a href="pagamento.html" class="btn-pagar">Pagar</a>
+            </div>
+            <div class="menu-item">
+                <img src="Zé da esquina.jpg" alt="Combo 2">
+                <h3>Zé da esquina</h3>
+                <ul>
+                    <li>Coxinha</li>
+                    <li>Suco de pêssego</li>
+                    <li>R$10,00</li>
+                </ul>
+                <a href="pagamento.html" class="btn-pagar">Pagar</a>
+            </div>
+            <div class="menu-item">
+                <img src="Comer e relaxar.jpg" alt="Combo 3">
+                <h3>Comer e relaxar</h3>
+                <ul>
+                    <li>Salgado de presunto e queijo</li>
+                    <li>Chá mate</li>
+                    <li>R$11,00</li>
+                </ul>
+                <a href="pagamento.html" class="btn-pagar">Pagar</a>
+            </div>
+            <div class="menu-item">
+                <img src="Sobremesa de sobra.jpg" alt="Combo 4">
+                <h3>Sobremesa de sobra</h3>
+                <ul>
+                    <li>Suco de uva</li>
+                    <li>Cookie</li>
+                    <li>Brownie</li>
+                    <li>R$14,00</li>
+                </ul>
+                <a href="pagamento.html" class="btn-pagar">Pagar</a>
+            </div>
+            <div class="menu-item">
+                <img src="Feira diferente.jpg   " alt="Combo 5">
+                <h3>Feira difrente</h3>
+                <ul>
+                    <li>Pastel assado</li>
+                    <li>Suco de uva</li>
+                    <li>R$10,00</li>
+                </ul>
+                <a href="pagamento.html" class="btn-pagar">Pagar</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Nosso Cardápio</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="hamburguer.jpg" alt="Hambúrguer">
+                <h3>Hambúrguer</h3>
+                <p>R$10,00</p>
+                <a href="pagamento.html" class="btn-pagar">Pagar</a>
+            </div>
+            <div class="menu-item">
+                <img src="salgado não identificado.jpg" alt="Salgado">
+                <h3>Salgado</h3>
+                <p>R$5,00</p>
+                <a href="pagamento.html" class="btn-pagar">Pagar</a>
+            </div>
+            <div class="menu-item">
+                <img src="Design sem nome.jpg" alt="Pão de Queijo">
+                <h3>Pão de Queijo</h3>
+                <p>R$3,00</p>
+                <a href="pagamento.html" class="btn-pagar">Pagar</a>
+            </div>
+            <div class="menu-item">
+                <img src="hot dog.jpg" alt="Cachorro-quente">
+                <h3>Cachorro-quente</h3>
+                <p>R$8,00</p>
+                <a href="pagamento.html" class="btn-pagar">Pagar</a>
+            </div>
+            <div class="menu-item">
+                <img src="pizza.jpg" alt="Pizza">
+                <h3>Pizza</h3>
+                <p>R$12,00</p>
+                <a href="pagamento.html" class="btn-pagar">Pagar</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Sobre a Cantina</h2>
+        <p>Nossa cantina oferece opções saudáveis e balanceadas para todos os estudantes. Garantimos a qualidade e frescor dos alimentos servidos diariamente.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cantina Escolar. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
